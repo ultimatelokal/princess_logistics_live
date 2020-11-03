@@ -451,6 +451,9 @@ footer{
     }
 
     /* FOOTER */
+    footer{
+      font-size: 2vw;
+    }
 
     .footer-bottom{
       display: flex;
