@@ -46,7 +46,8 @@ nav{
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
-  font-size: .8vw;
+
+  font-size: 20px;
 }
 
 .burger{
@@ -423,7 +424,7 @@ footer{
         /* justify-content: center; */
         align-items: center;
         transform: translateX(100%);
-        display: none;
+        /* display: none; */
         transition: transform 0.5s ease-in;
         
     }
@@ -483,6 +484,30 @@ footer{
       
     }
 
+     /* ABOUT US*/
+
+    /* BANNER */
+.banner-aboutus-wrapper{
+  height: 45vw;
+}
+
+.aboutus-text{
+  padding-top: 10vw;
+}
+
+.aboutus-goodday{
+  font-size: 4vw;
+}
+
+.aboutus-goodday p:not(:first-child){
+  margin-bottom: 3vw;
+  line-height: 10vw;
+}
+
+.aboutus-goodday img{
+  width: 75vw;
+}
+
     /* FOOTER */
     footer{
       font-size: 2.5vw;
@@ -502,7 +527,7 @@ footer{
       list-style: none;
       margin-top: 1vw;
     }
-
+    
     /* CONTACT US */
 
     
@@ -543,7 +568,7 @@ footer{
       border-top: none;
       border-left: none;
       border-right: none;
-      font-size: 1vw;
+      font-size: 2vw;
       outline: none;
       margin-left: 2vw;
     }
@@ -554,6 +579,7 @@ footer{
     }
     
     .btn-submit{
+      font-size: 2vw;
       width: 15vw;
       height: 5vw;
       margin-bottom: 5vw;
@@ -562,10 +588,15 @@ footer{
     .info-container{
       display: flex;
       margin-bottom: 1vw;
+      font-size: 2vw;
     }
     
     .icons-info{
-      margin-right: .5vw;
+      margin-right: 2vw;
+    }
+
+    .icons-info img{
+      width: 6vw;
     }
     
     .contactus-info{
