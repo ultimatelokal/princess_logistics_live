@@ -467,6 +467,10 @@ footer{
       font-size: 3vw;
     }
 
+    .home-goodday img{
+      width: 70%;
+    }
+
     /* HOME TEXTS */
 
     .home-goodday p:not(:first-child){
