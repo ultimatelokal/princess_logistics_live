@@ -405,7 +405,6 @@ footer{
 
   body{
     overflow-x: hidden;
-    max-width: 800px;
   }
 
   nav{
@@ -424,6 +423,7 @@ footer{
         /* justify-content: center; */
         align-items: center;
         transform: translateX(100%);
+        display: none;
         transition: transform 0.5s ease-in;
         
     }
@@ -485,7 +485,11 @@ footer{
 
     /* FOOTER */
     footer{
-      font-size: 2vw;
+      font-size: 2.5vw;
+    }
+
+    .footer-icon img{
+      width: 5vw;
     }
 
     .footer-bottom{
@@ -580,7 +584,7 @@ footer{
 
 .nav-active{
   transform: translateX(0%);
-  
+  display: flex;
 }
 
 @keyframes navLinkFade{
@@ -604,41 +608,4 @@ footer{
 
 .toggle .line3{
   transform: rotate(45deg) translate(-9px,-10px);
-}
-
-#status{
-  font-size: .5vw;
-  text-transform: uppercase;
-  font-weight: bolder;
-  margin-bottom: 4vw;
-  margin-left: 2vw;
-  
-}
-
-
-#status.success{
-  background-color: green;
-  color: white;
-  animation: status 1s ease  forwards;
-}
-
-#status.error{
-  background-color: orange;
-  color: white;
-  animation: status 1s ease  forwards;
-}
-
-@keyframes status {
-  0%{
-    opacity: 1;
-    pointer-events: all;
-  }
-  90%{
-    opacity: 1;
-    pointer-events: all;
-  }
-  100%{
-    opacity: 0;
-    pointer-events: none;
-  }
 }
