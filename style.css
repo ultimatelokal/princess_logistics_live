@@ -427,6 +427,10 @@ footer{
       opacity: 0;
     }
 
+    .nav-links a{
+      font-size: 2vw;
+    }
+
     .logo img{
       width: 40%;
       margin-left: 10%;
