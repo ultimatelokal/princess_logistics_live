@@ -405,6 +405,11 @@ footer{
 
   body{
     overflow-x: hidden;
+    max-width: 800px;
+  }
+
+  nav{
+    overflow-x: hidden;   
   }
 
     .nav-links{
@@ -441,6 +446,25 @@ footer{
       display: block;
       cursor: pointer;
       margin-right: 10%;
+    }
+
+    /* HOMME BANNER */
+    .banner-home-wrapper{
+      height: 45vw;
+    }
+    
+    .banner-text{
+      padding-top: 10vw;
+    }
+    
+    .phrase1{
+      font-size: 4vw;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+    .phrase2{
+      letter-spacing: 2px;
+      font-size: 3vw;
     }
 
     /* HOME TEXTS */
