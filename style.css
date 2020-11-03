@@ -419,12 +419,12 @@ footer{
         height: 50vh;
         top: 7vh;
         background-color: #96304c;
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column; */
         /* justify-content: center; */
         align-items: center;
         transform: translateX(100%);
-        /* display: none; */
+        display: none;
         transition: transform 0.5s ease-in;
         
     }
@@ -540,6 +540,10 @@ footer{
       margin: 0 auto;
     }
     
+    .contactus-info p{
+      font-size: 3vw;
+    }
+
     .contactus-email-form{
       width: 60vw;    
     }
@@ -556,7 +560,7 @@ footer{
     .email-text2{
       width: 50vw;
       margin: auto;
-      font-size: 1vw;
+      font-size: 2.6vw;
     }
     
     
@@ -616,6 +620,7 @@ footer{
 .nav-active{
   transform: translateX(0%);
   display: flex;
+  flex-direction: column;
 }
 
 @keyframes navLinkFade{
