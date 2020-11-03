@@ -307,6 +307,11 @@ nav{
   margin-right: .5vw;
 }
 
+.icons-info img{
+  width: 3vw;
+}
+
+
 .contactus-info{
   font-size: 1vw;
   letter-spacing: 2px;
