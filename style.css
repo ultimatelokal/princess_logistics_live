@@ -100,52 +100,25 @@ nav{
     flex-direction: column;
     margin: auto;
     text-align: center;
-    font-size: 1vw;
+    font-size: 2vw;
     letter-spacing: .4vw;
     /* line-height: 5vw; */
 }
 
 .home-goodday :first-child{
   margin-top: 3vw;
-  margin-bottom: 1vw;
+  margin-bottom: 3vw;
   text-transform: uppercase;
 
 }
 
 .home-goodday p:not(:first-child){
   margin-bottom: 1.5vw;
-  line-height: 2vw;
+  line-height: 5vw;
 }
 
 .home-goodday img{
   width: 50vw;
-}
-
-/********************* HOME btns **********************/
-
-.home-btn-wrapper{
-  display: flex;
-  width: 90vw;
-  margin: 0 auto;
-}
-
-.home_btn{
-  text-align: center;
-  /* justify-content: center; */
-  align-items: center;
-  width: 20vw;
-  height: 10vw;
-  /* background-color: violet; */
-  border-style: solid;
-  border-width: 1px;
-  border-color: #9c166b;
-  border-radius: 3px;
-  margin: auto;
-  font-size: 1vw;
-}
-
-.home-btn-wrapper p{
-  margin-top: 3vw;
 }
 
 
@@ -172,21 +145,21 @@ nav{
   flex-direction: column;
   margin: auto;
   text-align: center;
-  font-size: 1vw;
+  font-size: 2vw;
   letter-spacing: .4vw;
   /* line-height: 5vw; */
 }
 
 .aboutus-goodday :first-child{
   margin-top: 3vw;
-  margin-bottom: 1vw;
+  margin-bottom: 3vw;
   text-transform: uppercase;
 
 }
 
 .aboutus-goodday p:not(:first-child){
   margin-bottom: 1.5vw;
-  line-height: 2vw;
+  line-height: 5vw;
 }
 
 .aboutus-goodday img{
@@ -333,6 +306,155 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+/********************* TESTIMONIALS **********************/
+.banner-testimonials-wrapper{
+  background-image: url("imgs/bg/testimonials.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vw;
+}
+
+.testimonials-text{
+  display: grid;
+  color: white;
+  justify-content: space-around;
+  padding-top: 10vw;
+}
+
+.phrase1{
+  text-align: center;
+  font-size: 3vw;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.phrase2{
+  text-align: center;
+  font-weight: inherit;
+  letter-spacing: 5px;
+  font-size: 1vw;
+  text-transform: uppercase;
+}
+
+.testimonials-goodday{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  font-size: 2vw;
+  letter-spacing: .4vw;
+  /* line-height: 5vw; */
+}
+
+.testimonials-goodday :first-child{
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  text-transform: uppercase;
+
+}
+
+.testimonials-goodday p:not(:first-child){
+  margin-bottom: 1.5vw;
+  line-height: 5vw;
+}
+
+.online-reviews{
+  display: flex;
+  margin: 0 auto;
+  max-width: 90vh;
+  color: black;
+}
+
+.customer-reviews{
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+width: 30vw;
+background-color:  #d07da9;
+font-size: 1vw;
+font-weight: bolder;
+text-align: center;
+align-items: center
+}
+.cs-container{
+margin: 2vw;
+}
+.cs-comment{
+  margin: auto;
+}
+.cs-middle{
+  margin: 0 30px;
+}
+
+.cs-line{
+  margin: 1vh auto;
+  width: 10vw;
+  height: 3px;
+  border-style: solid;
+  border-color: white;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  border-width: 1px;
+}
+.btns-review-container{
+  display: flex;
+  width: 90vw;
+  margin: auto;
+}
+
+.btn-review{
+  color: white;
+  font-size: 1vw;
+  min-width: 10vw;
+  min-height: 3vw;
+  border-style: none;
+  background-color: #96304c;
+  transition: .8s;
+  margin-left: 2vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.btn-review:hover{
+  background-color: black;
+  cursor: pointer;
+ 
+}
+
+.btns-review-container1{
+  margin-left: auto;
+}
+
+.btns-review-container2{
+  margin-right: auto;
+}
+
+/********************* HOME GOOD DAY **********************/
+
+/* .home-goodday{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    font-size: 2vw;
+    letter-spacing: .4vw;
+    line-height: 5vw;
+}
+
+.home-goodday :first-child{
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  text-transform: uppercase;
+
+}
+
+.home-goodday p:not(:first-child){
+  margin-bottom: 1.5vw;
+  line-height: 5vw;
+} */
 
 /********************* FOOTER **********************/
 footer{
@@ -532,8 +654,114 @@ footer{
       list-style: none;
       margin-top: 1vw;
     }
-    
-    /* CONTACT US */
+
+    /* TESTIMONIALS */
+
+    /********************* TESTIMONIALS **********************/
+
+.banner-testimonials-wrapper{
+   height: 45vw;
+}
+
+.testimonials-text{
+  padding-top: 15vw;
+}
+
+.phrase1{
+  font-size: 4vw;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.phrase2{
+  letter-spacing: 2px;
+      font-size: 3vw;
+}
+
+.testimonials-goodday{
+  width: 90vw;
+  font-size: 4vw;
+  letter-spacing: .4vw;
+  /* line-height: 5vw; */
+}
+
+.testimonials-goodday :first-child{
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  text-transform: uppercase;
+
+}
+
+.testimonials-goodday p:not(:first-child){
+  margin-bottom: 1.5vw;
+  line-height: 5vw;
+}
+
+.online-reviews{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2vw;
+  max-width: 90vh;
+  color: black;
+}
+
+.customer-reviews{
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+width: 30vw;
+background-color:  #d07da9;
+font-size: 2vw;
+font-weight: bolder;
+text-align: center;
+align-items: center
+}
+.cs-container{
+margin: 2vw;
+}
+.cs-comment{
+  margin: auto;
+}
+.cs-middle{
+  margin: 0 30px;
+}
+
+.cs-line{
+  width: 15vw;
+}
+.btns-review-container{
+  display: flex;
+  width: 90vw;
+  margin: auto;
+}
+
+.btn-review{
+  color: white;
+  font-size: 2.5vw;
+  width: 30vw;
+  height: 8vw;
+  border-style: none;
+  background-color: #96304c;
+  transition: .8s;
+  margin-left: 2vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.btn-review:hover{
+  background-color: black;
+  cursor: pointer;
+ 
+}
+
+.btns-review-container1{
+  margin-left: auto;
+}
+
+.btns-review-container2{
+  margin-right: auto;
+}
+
+/* CONTACT US */
 
     
     /* FORMS */
@@ -555,11 +783,11 @@ footer{
     
     .email-text{    
       width: 60vw;
-      font-size: 1.5vw;      
+      font-size: 3vw;      
     }
     
     .email-text p{
-      padding: 1vw 0 ;
+      padding: 1vw ;
     }
     
     .email-text2{
