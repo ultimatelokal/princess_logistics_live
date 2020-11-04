@@ -371,7 +371,7 @@ input[type=number] {
   border-width: 1px;
   border-color: gray;
 width: 30vw;
-background-color:  #d07da9;
+background-color:  white;
 font-size: 1vw;
 font-weight: bolder;
 text-align: center;
@@ -392,7 +392,7 @@ margin: 2vw;
   width: 10vw;
   height: 3px;
   border-style: solid;
-  border-color: white;
+  border-color: #b77984;
   border-right: none;
   border-left: none;
   border-bottom: none;
