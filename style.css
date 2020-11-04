@@ -371,7 +371,6 @@ input[type=number] {
   border-width: 1px;
   border-color: gray;
 width: 30vw;
-background-color:  white;
 font-size: 1vw;
 font-weight: bolder;
 text-align: center;
@@ -396,7 +395,7 @@ margin: 2vw;
   border-right: none;
   border-left: none;
   border-bottom: none;
-  border-width: 1px;
+  border-width: 1.5px;
 }
 .btns-review-container{
   display: flex;
