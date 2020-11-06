@@ -579,6 +579,46 @@ footer{
 }
 
 
+/* BUTTON HEADERS */
+
+.btn-header{
+  width: 10px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.banner-btn{
+  text-transform: uppercase;
+  transition: .5s;
+  font-size: 22px;
+  /* margin: 10px 50px; */
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-style: none;
+  max-width: 250px;
+  max-height: 150px;
+  width: 20vw;
+  height: 7vw;
+  color: white;
+}
+
+.btn-header a{
+  text-decoration: none;
+  color: white;
+}
+
+.banner-btn:hover{
+  background-color: white;
+  border-style: solid;
+  border: red;
+  border-width: 20px;
+  opacity: 50%;
+  color: black;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 800px){
 
@@ -633,7 +673,7 @@ footer{
     }
     
     .banner-text{
-      padding-top: 10vw;
+      padding-top: 6vw;
     }
     
     .phrase1{
@@ -670,7 +710,7 @@ footer{
 }
 
 .aboutus-text{
-  padding-top: 10vw;
+  padding-top: 6vw;
 }
 
 .aboutus-goodday{
@@ -715,7 +755,7 @@ footer{
 }
 
 .testimonials-text{
-  padding-top: 15vw;
+  padding-top: 5vw;
 }
 
 .phrase1{
@@ -932,6 +972,15 @@ margin: 2vw;
 }
 
 
+/* BUTTON HEADERS */
+.banner-btn{
+  margin-top: 4vw;
+  font-size: 3vw;
+  /* margin: 10px 50px; */
+  /* width: 22w; */
+  height: 7vw;
+}
+
 }
 
 .nav-active{
@@ -961,4 +1010,19 @@ margin: 2vw;
 
 .toggle .line3{
   transform: rotate(45deg) translate(-9px,-10px);
+}
+
+/* PHONE NUMBER LINKS */
+.contactus-info a{
+  text-decoration: none;
+  color: #96304c;
+}
+
+.footer-contact-info a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links a:hover{
+  color: white;
 }
